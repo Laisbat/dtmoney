@@ -36,6 +36,22 @@ createServer({
           amount: 10000,
           createdAt: new Date('2021-10-11 09:00:00'),
         },
+        {
+          id: 4,
+          title: 'Freelancer com Júlio',
+          type: 'deposit',
+          category: 'Job',
+          amount: 10000,
+          createdAt: new Date('2021-10-11 09:00:00'),
+        },
+        {
+          id: 5,
+          title: 'Aluguel',
+          type: 'withdraw',
+          category: 'Moradia',
+          amount: 4000,
+          createdAt: new Date('2021-10-11 09:00:00'),
+        }
       ],
     })
   },
